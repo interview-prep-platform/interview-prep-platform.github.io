@@ -43,7 +43,7 @@ The user will be able to:
 * a list of technical interview questions
 * a list of example technical interview question answers for each question
 
-**Note**
+**Note:**
 The server will also serve as a backup storage container for the user's interview data. 
 
 ### External services
