@@ -6,11 +6,11 @@ The purpose of this app is to assist users in preparing for an interview, specif
 
 * People who want to practice technical interview questions before an interview.  
 
-  > As someone who wants to be as prepared as possible for an interview, I want to prepare for and practice common technical interview questions, so that I can get my dream technical job.
+    > As someone who wants to be as prepared as possible for an interview, I want to prepare for and practice common technical interview questions, so that I can get my dream technical job.
 
 * People who want to find technical interview questions to ask a potential new hire.
 
-  > As someone who wants to find the best candidate for a job, I want to find and ask good technical interview questions, so that I can hire the most talented people as my coworkers for my organization.
+    > As someone who wants to find the best candidate for a job, I want to find and ask good technical interview questions, so that I can hire the most talented people as my coworkers for my organization.
 
 ## Client component
 
@@ -43,7 +43,8 @@ The user will be able to:
 * a list of technical interview questions
 * a list of example technical interview question answers for each question
 
-Note: The server will also serve as a backup storage container for the user's interview data. 
+**Note**
+The server will also serve as a backup storage container for the user's interview data. 
 
 ### External services
  
