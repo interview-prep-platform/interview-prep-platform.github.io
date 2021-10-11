@@ -54,3 +54,5 @@ The server will also serve as a backup storage container for the user's intervie
 
 * allow the user to upload interview questions from an interview that they did
 * allow users to upload an as well as more than one example answer to a technical interview
+* allow users to upvote interview questions 
+* allow users to upvote interview answers
