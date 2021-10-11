@@ -28,7 +28,7 @@ The user will be able to:
 
 ### Device/external services
 
-* none
+* Google authentication
 
 ## Server component
 
@@ -48,7 +48,7 @@ The server will also serve as a backup storage container for the user's intervie
 
 ### External services
  
-* none
+* preload the server database with interview questions and an example answer from each category.
 
 ## Stretch goals/possible enhancements 
 
