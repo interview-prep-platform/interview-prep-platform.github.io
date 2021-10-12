@@ -4,13 +4,13 @@ The purpose of this app is to assist users in preparing for an interview, specif
 
 ## Intended users
 
-* People who want to practice technical interview questions before an interview.  
+* A recent college graduate who studied in a technology field
 
-    > As someone who wants to be as prepared as possible for an interview, I want to prepare for and practice common technical interview questions, so that I can get my dream technical job.
+    > As a recent college graduate who wants to be as prepared as possible for a technical interview, I want to prepare for and practice common technical interview questions, so that I can get my dream technical job.
 
-* People who want to find technical interview questions to ask a potential new hire.
+* A manager who wants to find technical interview questions to ask a potential new hire.
 
-    > As someone who wants to find the best candidate for a job, I want to find and ask good technical interview questions, so that I can hire the most talented people as my coworkers for my organization.
+    > As a manager who wants to find the best candidate for a job, I want to find and ask good technical interview questions, so that I can hire the most talented people for my organization.
 
 ## Client component
 
