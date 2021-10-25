@@ -11,7 +11,7 @@ titles_from_headings:
 title: "Interview Prep"       # Write the project title inside the quotes.
 description: "This app is a digital platform that assists users in preparing for an interview, specifically, for a technical interview."  # Write the project description inside the quotes
 author:                                  # Don't do anything with this line!
-  name: "Cynthia Nikolai"           # Write your name inside the quotes.
+  name: "Cynthia Nikolai, Sergio Valdez, Zachary Ramsey"           # Write your name inside the quotes.
 
 # Do not modify the following line!
   copyright: true  
