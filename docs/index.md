@@ -1,3 +1,10 @@
+---
+title: Summary
+description: High-level summary of application.
+menu: Summary
+order: 0
+---
+
 ## Summary
 
 The purpose of this app is to assist users in preparing for an interview, specifically, for a technical interview.  The app (client and server together) will store general interview questions as well as detailed technical interview questions.  Additionally, it also will store a good example answer for each question.  The app will let the user store an answer to each question for themselves.   It will also let the user display all of their interview questions and answers upon demand so that the user can review their answers and practice them.  
