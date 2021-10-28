@@ -7,7 +7,11 @@ order: 0
 
 ## Summary
 
-The purpose of this app is to assist users in preparing for an interview, specifically, for a technical interview.  The app (client and server together) will store general interview questions as well as detailed technical interview questions.  Additionally, it also will store a good example answer for each question.  The app will let the user store an answer to each question for themselves.   It will also let the user display all of their interview questions and answers upon demand so that the user can review their answers and practice them.  
+* Summary of the project topic in general terms:
+This app is designed to help prospective employees in the IT field and interviewers prepare for the big day. Coming with preset questions and self-created interview quizzes, a user can comfortably practice for a variety of different interviews. A custom question feature makes it accessible for interviewers to use, quizzing applicants on whatever they seek to know.  
+&nbsp;
+* Overview of intended functionality:
+The app (client and server together) will store general interview questions as well as detailed technical interview questions. Additionally, it also will store a good example answer for each question. The app will let the user store additional questions and answers for self practice.  
 
 ## Intended users
 
@@ -31,7 +35,8 @@ The user will be able to:
 
 ### Persistent data
 
-* user answers to each technical interview question 
+* user questions and answers to each technical interview question
+* the time and date that the user accessed questions.   
 
 ### Device/external services
 
@@ -41,7 +46,7 @@ The user will be able to:
 
 ### Functionality
  
-* list all technical interview questions and example answers (if this functionality will add value to the app)
+* list all technical interview questions and example answers
 * generate a random technical interview question upon demand
 * generate the answer to a random technical interview question on demand
 
