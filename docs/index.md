@@ -1,3 +1,10 @@
+---
+title: Summary
+description: High-level summary of application.
+menu: Summary
+order: 0
+---
+
 ## Team Roster
 
 * Sergio Valdez
@@ -41,6 +48,10 @@ The user will be able to:
 
 * Google authentication
 
+### Client Side Design & Implementation
+
+[Client Side Design & Implementation](client-implementation.md)
+
 ## Server component
 
 ### Functionality
@@ -60,6 +71,10 @@ The server will also serve as a backup storage container for the user's intervie
 ### External services
  
 * preload the server database with interview questions and an example answer from each category.
+
+### Server Side Design & Implementation
+
+[Server Side Design & Implementation](server-implementation.md)
 
 ## Stretch goals/possible enhancements 
 
