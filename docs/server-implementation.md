@@ -1,3 +1,10 @@
+---
+title: Implementation
+description: Server side design and implementation.
+menu: Implementation
+order: 40
+---
+
 # Server Design and Impelementation
 
 ##  Entity-relationship diagram
