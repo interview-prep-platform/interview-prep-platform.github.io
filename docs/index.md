@@ -5,6 +5,12 @@ menu: Summary
 order: 0
 ---
 
+## Team Roster
+
+* Sergio Valdez
+* Zac Ramsey
+* Cynthia Nikolai
+
 ## Summary
 
 * Summary of the project topic in general terms:

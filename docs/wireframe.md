@@ -5,4 +5,5 @@ menu: Wireframe
 order: 20
 ---
 
-[![WIREFRAME diagram](images/wireframe-interview-prep.svg)](pdf/wireframe-interview-prep.pdf)
+[![Wireframe diagram](images/interview-prep-wireframe.svg)](pdf/interview-prep-wireframe.pdf)
+
