@@ -6,7 +6,7 @@
 
 ##  Javadocs
 
-[Javadeocs](javadocs.md)
+[Javadocs](javadocs.md)
 
 [comment]: <> (##  Data model implementation)
 
