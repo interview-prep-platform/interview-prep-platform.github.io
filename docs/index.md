@@ -1,10 +1,3 @@
----
-title: Summary
-description: High-level summary of application.
-menu: Summary
-order: 0
----
-
 ## Team Roster
 
 * Sergio Valdez
@@ -74,6 +67,14 @@ The server will also serve as a backup storage container for the user's intervie
 * allow users to upload more than one example answer to a technical interview
 * allow users to upvote interview questions 
 * allow users to upvote interview answers
+
+## Server Side Design & Implementation
+
+[Server Side Design & Implementation](server-implementation.md)
+
+## Client Side Design & Implementation
+
+[Client Side Design & Implementation](client-implementation.md)
 
 ## Copyright and License
 
