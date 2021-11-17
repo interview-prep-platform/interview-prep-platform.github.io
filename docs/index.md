@@ -83,14 +83,6 @@ The server will also serve as a backup storage container for the user's intervie
 * allow users to upvote interview questions 
 * allow users to upvote interview answers
 
-## Server Side Design & Implementation
-
-[Server Side Design & Implementation](server-implementation.md)
-
-## Client Side Design & Implementation
-
-[Client Side Design & Implementation](client-implementation.md)
-
 ## Copyright and License
 
 Interview Prep: A digital platform that assists users in preparing for an interview, specifically, for a technical interview.
