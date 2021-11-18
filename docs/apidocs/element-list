@@ -1,0 +1,6 @@
+edu.cnm.deepdive.interviewprep
+edu.cnm.deepdive.interviewprep.configuration
+edu.cnm.deepdive.interviewprep.controller
+edu.cnm.deepdive.interviewprep.model.dao
+edu.cnm.deepdive.interviewprep.model.entity
+edu.cnm.deepdive.interviewprep.service
