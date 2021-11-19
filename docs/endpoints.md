@@ -2,8 +2,8 @@
 
 Main URL: /interviewprep  
 
-/questions  
-GET  
+/questions<br/>  
+GET<br>
 Response: Entire list of Question resources (every single question in the database).  
 
 POST  
