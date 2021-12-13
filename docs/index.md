@@ -6,22 +6,28 @@ order: 0
 ---
 
 ## Team Roster
+  
+* Cynthia Nikolai
+<https://github.com/cnikolai> -
+<https://www.linkedin.com/in/cynthia-nikolai/>
 
 * Sergio Valdez
-<https://github.com/Sergio-Valdez>
+<https://github.com/Sergio-Valdez> -
 <https://www.linkedin.com/in/sergio-valdez-8601b3213/>
 
 * Zac Ramsey
-  <https://github.com/zcr003>
+ <https://github.com/zcr003> -
   <https://www.linkedin.com/in/zac-ramsey>  
 
-* Cynthia Nikolai
-  <https://github.com/cnikolai>
-  <https://www.linkedin.com/in/cynthia-nikolai/>
+
 
 ## Summary
 
-### Summary of the project topic in general terms and Overview of intended functionality:
+### PDF Overview of Project
+
+[Overview of Project](interview-prep-overview.pdf)
+
+### Summary of the project topic in general terms and Overview of Intended Functionality:
 This Android application is designed to help prospective employees and interviewers in the IT field prepare for the big day. Coming with preset questions and self-created interview quizzes, a user can comfortably practice for a variety of different interviews in the tech field. A custom question feature makes it accessible for interviewers to use, quizzing applicants on whatever they seek to know. 
 
 The application (client and server together) stores general interview questions as well as detailed technical interview questions. Additionally, it stores a good example answer for each question while allowing the user to store additional questions and answers for self practice. We chose a professional color scheme intended to help put the user's mind at ease as they prepare for a stressful interview.
@@ -43,6 +49,8 @@ We chose this particular application to give us a well-rounded Android developme
 * See an example of a good answer to each interview question
 * Prepare an answer to the technical interview question, and store their answer on their phone (In progress)
 * Back-up their technical answers to the server
+
+
 
 ## Intended users
 
@@ -68,7 +76,7 @@ We chose this particular application to give us a well-rounded Android developme
 
 ### Client Side Design & Implementation
 
-[Client Side Design & Implementation](client-implementation.md)
+[Client Side Design, Implementation, & Basic User Instructions](client-implementation.md)
 
 ### Copyright and Licenses
 
@@ -111,4 +119,56 @@ Cosmetic enhancements include allowing users to change the background image and 
 * allow users to upload more than one example answer to a technical interview
 * allow users to upvote interview questions 
 * allow users to upvote interview answers
+
+## Technology Stack
+
+### Back end
+
+    Ubuntu Linux OS
+    Apache HTTP server configured as reverse proxy
+    JRE 8
+    Apache Tomcat Java application server
+    Web service application, incorporating:
+        Data model
+            Embedded Apache Derby database
+            Hibernate ORM
+            Custom entity classes
+            Spring Boot Data
+            Custom data repository interfaces
+        Service controllers
+            Spring MVC
+            Custom controller classes
+        View composition & serialization
+            Jackson JSON
+            Custom view classes & interfaces
+        Authentication
+            Spring Security
+            Google Sign In (external service; see https://developers.google.com/identity)
+            Custom authentication verifier method for audience (client ID)
+
+### Front end
+
+    Android OS
+    Data model
+        SQLite
+        Room ORM
+        Custom entity and other model classes
+        Custom type converters
+        Data access object (DAO) interfaces
+    Remote service interfaces
+        Retrofit
+        ReactiveX
+        Gson
+        Custom serializer/deserializers
+    Viewmodel components
+        Android Lifecycle framework (ViewModel & LiveData)
+        Custom viewmodel classes
+    View
+        Custom RecyclerView.Adapter and RecyclerView.Holder classes
+        Custom layouts
+    Controller
+        Custom activity and fragment classes
+    Authentication
+        Google Sign In (external service; see https://developers.google.com/identity)
+        Custom sign in service class
 
