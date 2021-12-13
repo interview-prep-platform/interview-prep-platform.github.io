@@ -13,4 +13,4 @@ https://github.com/interview-prep-platform
 
 3. With the key still in the clipboard, Open Intellij, and select 'Get from VCS'. Here youre able to paste the key we copied, Ensure you have the desired directory, and select clone and Ta-da! You have have your own copy of our Interview-prep Application.
 
-4. To begin the game, Launch intellij. Then using either a Physical android device or a emulator with hardware at least strong as Pixel 3a API 28. Select the play button, and the game will launch.
+4. To begin the game, Launch intellij. Then using either a Physical android device or an emulator with hardware at least strong as Pixel 3a API 28. Select the play button, and the game will launch.
