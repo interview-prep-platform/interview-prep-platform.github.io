@@ -7,5 +7,5 @@ order: 30
 
 # Wireframe
 
-[[Wireframe diagram](images/interview-prep-wireframe.svg)](pdf/interview-prep-wireframe.pdf)
+[![Wireframe diagram](images/interview-prep-wireframe.svg)](pdf/interview-prep-wireframe.pdf)
 
