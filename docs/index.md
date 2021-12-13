@@ -25,7 +25,7 @@ order: 0
 
 ### PDF Overview of Project
 
-[Overview of Project](interview-prep-overview.pdf)
+[Overview of Project](./pdf/interview-prep-overview.pdf)
 
 ### Summary of the project topic in general terms and Overview of Intended Functionality:
 This Android application is designed to help prospective employees and interviewers in the IT field prepare for the big day. Coming with preset questions and self-created interview quizzes, a user can comfortably practice for a variety of different interviews in the tech field. A custom question feature makes it accessible for interviewers to use, quizzing applicants on whatever they seek to know. 
