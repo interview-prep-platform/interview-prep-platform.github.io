@@ -1,3 +1,3 @@
 # Javadocs
 
-[Javadocs of service](apidocs/)
+[Javadocs of service](server_apidocs/)
