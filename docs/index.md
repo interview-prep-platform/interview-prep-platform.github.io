@@ -8,16 +8,41 @@ order: 0
 ## Team Roster
 
 * Sergio Valdez
+<https://github.com/Sergio-Valdez>
+<https://www.linkedin.com/in/sergio-valdez-8601b3213/>
+
 * Zac Ramsey
+  <https://github.com/zcr003>
+  <https://www.linkedin.com/in/zac-ramsey>  
+
 * Cynthia Nikolai
+  <https://github.com/cnikolai>
+  <https://www.linkedin.com/in/cynthia-nikolai/>
 
 ## Summary
 
-* Summary of the project topic in general terms:
-This app is designed to help prospective employees in the IT field and interviewers prepare for the big day. Coming with preset questions and self-created interview quizzes, a user can comfortably practice for a variety of different interviews. A custom question feature makes it accessible for interviewers to use, quizzing applicants on whatever they seek to know.  
-&nbsp;
-* Overview of intended functionality:
-The app (client and server together) will store general interview questions as well as detailed technical interview questions. Additionally, it also will store a good example answer for each question. The app will let the user store additional questions and answers for self practice.  
+### Summary of the project topic in general terms and Overview of intended functionality:
+This Android application is designed to help prospective employees and interviewers in the IT field prepare for the big day. Coming with preset questions and self-created interview quizzes, a user can comfortably practice for a variety of different interviews in the tech field. A custom question feature makes it accessible for interviewers to use, quizzing applicants on whatever they seek to know. 
+
+The application (client and server together) stores general interview questions as well as detailed technical interview questions. Additionally, it stores a good example answer for each question while allowing the user to store additional questions and answers for self practice. We chose a professional color scheme intended to help put the user's mind at ease as they prepare for a stressful interview.
+
+### Motivations for selecting the given topic for the app:
+We chose this particular application to give us a well-rounded Android development experience. Our goal is to create an impressive app to show an employer while conveniently preparing us for interview day. Some major take-a-ways from this project have been learning how to: 
+* coordinate with remote teams over github 
+* implement the model-view-viewModel design pattern
+* set up a server and store data on a remote database in the cloud 
+* set up a responsive front-end UI
+* rapidly assimilate a broad range of technical concepts
+
+
+### Key functional elements of the app:
+ The user is able to 
+* Query the server for a list of all interview questions
+  * Click on a particular question and get a detailed view of the question including answer and source.
+* The user is able to begin a quiz and query the server for a set of randomly selected technical interview questions
+* See an example of a good answer to each interview question
+* Prepare an answer to the technical interview question, and store their answer on their phone (In progress)
+* Back-up their technical answers to the server
 
 ## Intended users
 
@@ -31,13 +56,6 @@ The app (client and server together) will store general interview questions as w
 
 ## Client component
 
-### Functionality
-
-The user will be able to: 
-* query the server for a randomly selected technical interview question
-* see an example of a good answer to each interview question
-* prepare an answer to the technical interview question, and store their answer on their phone
-* backup their technical answers to the server
 
 ### Persistent data
 
@@ -52,13 +70,13 @@ The user will be able to:
 
 [Client Side Design & Implementation](client-implementation.md)
 
+### Copyright and Licenses
+
+[Copyright and Licenses](notice.md)
+
+
 ## Server component
 
-### Functionality
- 
-* list all technical interview questions and example answers
-* generate a random technical interview question upon demand
-* generate the answer to a random technical interview question on demand
 
 ### Persistent data
 
@@ -66,7 +84,7 @@ The user will be able to:
 * a list of example technical interview question answers for each question
 
 **Note:**
-The server will also serve as a backup storage container for the user's interview data. 
+The server can also serve as a backup storage container for the user's interview data. 
 
 ### External services
  
@@ -76,26 +94,21 @@ The server will also serve as a backup storage container for the user's intervie
 
 [Server Side Design & Implementation](server-implementation.md)
 
+
+## Summary of current state of the project
+
+The application currently has basic functionality implemented and serves as a working proof-of-concept prototype. Upon first opening the application the user is brought to a Google Sign-in screen and is prompted to enter their information. Once logged in the user sees the Question home screen that displays a list of questions along with icons that give the ability to add new questions or edit and delete current questions. As a user selects a specific question from the list they are taken to a question detail screen that displays the question along with the answer and the source all with color coded headings. The quiz feature allows the user to scroll/swipe through a list of randomly generated questions from our server. 
+
+Enhancements include a history function that allows a user to see a list of previously accessed questions, a category feature that organizes the interview questions into specific categories such as Java, Android, HTML, and more. Another unimplemented feature is hiding the answer from the user once they begin a quiz and storing their answer in the cloud. Finally we would like to implement the ability to select the length of the quiz based on user preferences in settings/shared preferences.
+
+Cosmetic enhancements include allowing users to change the background image and customize the color scheme.
+
+
 ## Stretch goals/possible enhancements 
 
+* allow users to mark their favorite questions
 * allow the user to upload interview questions from an interview that they did
 * allow users to upload more than one example answer to a technical interview
 * allow users to upvote interview questions 
 * allow users to upvote interview answers
 
-## Copyright and License
-
-Interview Prep: A digital platform that assists users in preparing for an interview, specifically, for a technical interview.
-
-Copyright (C) 2021  Cynthia Nikolai, Sergio Valdez, Zachary Ramsey
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
